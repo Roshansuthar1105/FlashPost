@@ -1,13 +1,12 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
 import News from "./components/News";
 import Home from "./pages/Home";
 import { Route, Routes } from "react-router-dom";
+import NavBar from "./components/NavBar";
 function App() {
   return (
     <>
+    <NavBar/>
       <Routes>
         <Route path="/cricket" element={<News />} />
         <Route path="/" element={<Home />} />

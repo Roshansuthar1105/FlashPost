@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import Card from './Card';
-import Navbar from './NavBar.jsx';
 import './css/News.css';
 const News = ({category}) => {
     const search = "cricket";
@@ -26,7 +25,6 @@ const News = ({category}) => {
     },[category])
   return (
     <>
-    <Navbar/>
     <div className='card-cont' >
         {data.map((item,idx)=>{
             if(item.urlToImage)
