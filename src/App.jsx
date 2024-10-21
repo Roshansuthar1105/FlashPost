@@ -2,7 +2,7 @@ import "./App.css";
 import News from "./components/News";
 import Home from "./pages/Home";
 import { Route, Routes } from "react-router-dom";
-import NavBar from "./components/NavBar";
+import NavBar from "./components/Navbar";
 function App() {
   return (
     <>
