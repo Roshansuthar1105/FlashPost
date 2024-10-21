@@ -16,7 +16,7 @@ const NavBar = () => {
   return (
     <div className="navbar">
       <h2 className="logo">
-        <Link to="/">News App</Link>
+        <Link to="/">FlashPost</Link>
       </h2>
       <button className="menu-button" onClick={toggleMenu}>
         {isMenuVisible ? 'Hide Menu' : 'Show Menu'}
