@@ -6,7 +6,9 @@ import NavBar from "./components/Navbar";
 function App() {
   return (
     <>
+    <div className="nav-fixed" >
     <NavBar/>
+    </div>
       <Routes>
         <Route path="/cricket" element={<News />} />
         <Route path="/" element={<Home />} />
