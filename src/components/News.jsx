@@ -24,19 +24,8 @@ const News = ({category}) => {
     }
     useEffect(()=>{
         getdata();
+        console.log("data recieved",data);
     },[category,page])
-
-    const onNext = () => {
-        console.log("first")
-    }
-
-    const onPrev = () => {
-        console.log("Previous page");
-    }
-
-    const onPageContentSize = () => {
-        console.log("Page content size changed");
-    }
 
   return (
     <>
