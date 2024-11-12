@@ -7,8 +7,8 @@ const News = ({category}) => {
     const api ="3bd19f3433c440e68ecaed975c5e2d4d"; 
     const authorization="3bd19f3433c440e68ecaed975c5e2d4d"
     // const url=`https://newsapi.org/v2/everything?q=${category}&apiKey=${api}&page=${page}&pagesize=20`
-    const url=`https://newsapi.org/v2/everything?q=${category}&apiKey=${api}&page=${page}&pagesize=20`
-    const url2=`https://newsapi.org/v2/top-headlines/sources?category=${category}&apiKey=${api}`
+    const url=`https://newsapi.org/v2/everything?q=cricket&apiKey=${api}&page=1&pagesize=20`
+    // const url2=`https://newsapi.org/v2/top-headlines/sources?category=${category}&apiKey=${api}`
     const [data , setdata]=useState([]);
     console.log(url);
     const getdata = async ()=>{
