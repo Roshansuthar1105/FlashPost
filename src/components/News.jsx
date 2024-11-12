@@ -36,7 +36,7 @@ const News = ({category}) => {
             return <Card key={idx} item={item}  />
         })}
     </div>
-    <Footer setPage={setPage} page={page} onPageContentSize={onPageContentSize} />
+    <Footer setPage={setPage} page={page}/>
     </>
   )
 }
