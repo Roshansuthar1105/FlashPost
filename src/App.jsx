@@ -10,8 +10,8 @@ function App() {
     <NavBar/>
     </div>
       <Routes>
-        <Route path="/cricket" element={<News />} />
         <Route path="/" element={<Home />} />
+        <Route path="/cricket" element={<News />} />
         <Route path="/business" element={<News category="business" />} />
         <Route path="/bitcoin" element={<News category="bitcoin" />} />
         <Route path="/technology" element={<News category="technology" />} />
@@ -19,10 +19,7 @@ function App() {
         <Route path="/science" element={<News category="science" />} />
         <Route path="/health" element={<News category="health" />} />
         <Route path="/general" element={<News category="general" />} />
-        <Route
-          path="/entertainment"
-          element={<News category="entertainment" />}
-        />
+        <Route path="/entertainment" element={<News category="entertainment" />}/>
       </Routes>
     </>
   );
